@@ -16,9 +16,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Template
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/
 
 # -----
 # Build
