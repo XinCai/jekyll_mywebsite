@@ -1,5 +1,5 @@
 ---
-title: City fit out
+title: CITY FIT OUT
 date: 2019-07-20
 description: This is our city fit out project
 categories:
@@ -7,10 +7,11 @@ categories:
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: Kevin
 ---
-
-Our quality work 
-
+Please check Our quality work 
 ![Checkmate](https://gdurl.com/7NY0)
+
+## Details 
+
 ![Checkmate](https://gdurl.com/iXqT)
 
 ## More Picture
