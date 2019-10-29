@@ -8,11 +8,12 @@ categories:
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: Kevin
 ---
-Your new home built in Surry Hills
-![Fair](https://gdurl.com/hrUi)
 
 Details
 ![Man](https://gdurl.com/T6JJ)
+
+Built in Surry Hills
+![Fair](https://gdurl.com/hrUi)
 
 While there is an impressive 
 
