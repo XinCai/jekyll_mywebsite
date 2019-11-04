@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: E2 Business Pty Ltd
+title: 金谷仓
 url: "https://www.google.com"
 baseurl:
 google_analytics_key:
@@ -46,7 +46,7 @@ collections:
     _icon: account_circle
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/page/:num/"
 
 jekyll-archives:
   enabled: ['categories']

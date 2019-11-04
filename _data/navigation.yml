@@ -1,6 +1,8 @@
-- name: Renovation
-  link: /blog/
-- name: About
+- name: 首页
+  link: /
+- name: 服务项目
+  link: /page/
+- name: 关于我们
   link: /about/
-- name: Contact
+- name: 联系我们
   link: /contact/

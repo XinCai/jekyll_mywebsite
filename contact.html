@@ -15,45 +15,44 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<h1 class="editable">Get in touch today</h1>
 			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
 			<div></div>
-			<p> General Enquiry : FTFITTING@OUTLOOK.COM</p>
-			<p> Sale : EVAN@E2GRANNYFLAT.COM.AU</p>
-			<p> Mobile : 0433017172 </p>
-			<p> ABN : 34 629 371 571</p>
+			<p> 联系地址 ： 河北省邯郸市峰峰矿区彭城镇彭常路西28号内11号</p>
+			<p> 法定代表人 ： 肖越</p>
+			<p> 注册资本： 一千万元整 </p>
+			<p> 类型 ：有限责任公司 </p>
 		</div>
 	</div>
 </section>
 
 
+<section class="pad">
+	<div class="text-container contact-box">
+		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="support@cloudcannon.com">
+			<input type="text" name="_gotcha" style="display: none;">
 
-<!--<section class="pad">-->
-<!--	<div class="text-container contact-box">-->
-<!--		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">-->
-<!--			<input type="hidden" name="_to" value="support@cloudcannon.com">-->
-<!--			<input type="text" name="_gotcha" style="display: none;">-->
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="Enter your name...">
 
-<!--			<label for="name">Name</label>-->
-<!--			<input type="text" name="name" id="name" placeholder="Enter your name...">-->
+			<label for="email">Email Address</label>
+			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
 
-<!--			<label for="email">Email Address</label>-->
-<!--			<input type="email" name="email" id="email" placeholder="Enter your email..." required>-->
+			<label for="message">Message</label>
+			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-<!--			<label for="message">Message</label>-->
-<!--			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>-->
+			<input type="submit" value="Send Message">
+		</form>
 
-<!--			<input type="submit" value="Send Message">-->
-<!--		</form>-->
+		<div class="contact-details">
+			<h3>Address</h3>
+			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-<!--		<div class="contact-details">-->
-<!--			<h3>Address</h3>-->
-<!--			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>-->
+			<h3>Email</h3>
+			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+		</div>
+	</div>
+</section>
 
-<!--			<h3>Email</h3>-->
-<!--			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>-->
-<!--		</div>-->
-<!--	</div>-->
-<!--</section>-->
-
-<!--<div class="map" id="map"></div>-->
+<div class="map" id="map"></div>
 
 <script>
 	window.mapData = {{ page.map | jsonify }};
